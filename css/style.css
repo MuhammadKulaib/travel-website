@@ -133,7 +133,12 @@
 
 .recommended-destination-navbar ul li {
   display: inline-block;
-  margin: 10px 20px;
+  margin: 0 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .recommended-destination-navbar ul li a {
@@ -143,10 +148,14 @@
   padding-bottom: 10px;
 }
 
-.recommended-destination-navbar ul li a.active,
-.recommended-destination-navbar ul li a:hover {
+.recommended-destination-navbar ul li.active,
+.recommended-destination-navbar ul li:hover {
   border-bottom: 5px solid #163235;
   color: #163235;
+}
+
+.recommended-destination-card {
+  margin-top: 20px;
 }
 
 .recommended-destination-card img {
